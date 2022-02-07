@@ -18,6 +18,8 @@ divtest.innerHTML = `
   width: 50%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
+  z-index: 1;
+  background: white;
 }
 
 .control-row-ram {
@@ -78,6 +80,9 @@ divtest.innerHTML = `
     position: fixed;
     bottom: 5px;
     right: 5px;
+    padding: 5px;
+    cursor: pointer;
+    word-spacing: inherit;
 }
 
 </style>
