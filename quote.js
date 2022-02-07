@@ -73,6 +73,12 @@ divtest.innerHTML = `
 .modal-content_mera {
   padding: 50px;
 }
+#mera_model
+{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
 
 </style>
 <div class="modal-content_mera">
@@ -83,10 +89,14 @@ divtest.innerHTML = `
     ></span>
   </div>
   <div class="control-row-ram"><h2>Get in touch</h2></div>
-  <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="text-name" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="Name" /></div>
-  <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="text-company" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="Compnay" /></div>
-  <div class="control-row-ram"><span class="span-sham" /> <input type="email" name="email-form" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="Email" /></div>
-  <div class="control-row-ram"><span class="span-sham" /><textarea name="textarea-form" cols="40" rows="10" class="contol-input-seeta span-sham-textarea" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></div>
+  <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="name" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="Name" /></div>
+		    <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="Home-phone-number" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="Home phone number" /></div>
+		   <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="Cell phone number" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="Cell phone number" /></div>
+		   <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="Street" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="Street" /></div>
+		   <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="Apt/Unit" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="Apt/Unit" /></div>
+		   <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="City" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="City" /></div>
+		   <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="State" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="State" /></div>
+		   <div class="control-row-ram"><span class="span-sham" /> <input type="text" name="Zip code" value="" size="40" class="contol-input-seeta" aria-required="true" aria-invalid="false" placeholder="Zip code" /></div>
 
   <input type="submit" value="Get in touch" class="submit_btn_hanu" aria-invalid="false" />
 </div>`;
