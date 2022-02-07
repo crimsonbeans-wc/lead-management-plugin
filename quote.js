@@ -94,7 +94,7 @@ divtest.innerHTML = `
 var buttontest = document.createElement("button");
 
 buttontest.id = "mera_model";
-buttontest.textContent = "Open Modal";
+buttontest.textContent = "Open Modalggg";
 document.body.appendChild(divtest);
 document.body.appendChild(buttontest);
 
