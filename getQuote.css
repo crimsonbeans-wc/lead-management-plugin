@@ -1,0 +1,69 @@
+#main_body_pop_up input:focus,
+#main_body_pop_up textarea:focus {
+  outline: none;
+}
+
+#main_body_pop_up {
+  position: absolute;
+  display: none;
+  /* Location of the box */
+  right: 0;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+.control-row-ram {
+  margin-bottom: 20px;
+}
+
+.span-sham {
+  position: relative;
+}
+
+.contol-input-seeta {
+  padding: 8px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  background-color: transparent;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.submit_btn_hanu {
+  margin-top: 28px;
+  padding: 14px 27px 12px;
+  line-height: 14px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #000;
+  border-color: #000;
+  cursor: pointer;
+
+  border-radius: 20px;
+  text-decoration: none;
+  background: none;
+}
+
+.submit_btn_hanu:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  outline: none;
+}
+
+.span-sham-textarea {
+  height: 38px;
+}
+
+.close_popup_jandu {
+  float: right;
+}
+
+.modal-content_mera {
+  padding: 50px;
+}
