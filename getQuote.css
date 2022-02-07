@@ -67,3 +67,10 @@
 .modal-content_mera {
   padding: 50px;
 }
+
+#mera_model
+{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
